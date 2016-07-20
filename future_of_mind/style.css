@@ -1,0 +1,31 @@
+#card {
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.container-fluid {
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+#card.flipped {
+  transform: rotateY( 180deg );
+}
+
+.picture {
+	position: relative;
+  top: 50%;
+	left: 50%;
+  height: 600px;
+  margin-top: 125px; /* account for padding and border if not using box-sizing: border-box; */
+}
+
+.text {
+  font-family: "Georgia", serif;
+	font-size: 400%;
+	font-weight: 700;
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	text-align: center;
+}
