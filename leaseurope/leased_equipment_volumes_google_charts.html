@@ -1,0 +1,201 @@
+<html>
+  <head>
+    <!-- Bootstrap core CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- JQuery-->
+    <script   src="https://code.jquery.com/jquery-3.1.0.slim.min.js"   integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8="   crossorigin="anonymous"></script>
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+     var data;
+     var chart;
+
+     var titleFont = '"Trebuchet MS", Helvetica, sans-serif';
+     var titleSize = 18;
+     var titleColor = '#022e4d';
+     var legendColor = '#968472';
+     var color0 = '#80cc28';
+     var color1 = '#46ae33';
+     var color2 = '#022e4d';
+     var color3 = '#619cbc';
+     var color4 = '#b5dc17';
+     var color5 = '#b6d1e0';
+
+     var data2014 = [
+        ['Category', 'Percentage'],
+        ['Machinery & industrial equipment', 17],
+        ['Commercial vehicles',  19],
+        ['Passenger cars', 49],
+        ['Computers & business machines', 6],
+        ['Big / other',    9]
+      ];
+      var total2014 = 260;
+
+      var data2013 = [
+        ['Category', 'Percentage'],
+        ['Machinery & industrial equipment', 17],
+        ['Commercial vehicles',  19],
+        ['Passenger cars', 47],
+        ['Computers & business machines', 7],
+        ['Big / other',    10]
+      ];
+      var total2013 = 238;
+
+      var data2012 = [
+        ['Category', 'Percentage'],
+        ['Machinery & industrial equipment', 17],
+        ['Commercial vehicles',  18],
+        ['Passenger cars', 46],
+        ['Computers & business machines', 7],
+        ['Big / other',    12]
+      ];
+      var total2012 = 236;
+
+      var data2011 = [
+        ['Category', 'Percentage'],
+        ['Machinery & industrial equipment', 17],
+        ['Commercial vehicles',  19],
+        ['Passenger cars', 44],
+        ['Computers & business machines', 7],
+        ['Big / other',    13]
+      ];
+      var total2011 = 232;
+
+      var data2010 = [
+        ['Category', 'Percentage'],
+        ['Machinery & industrial equipment', 19],
+        ['Commercial vehicles',  18],
+        ['Passenger cars', 46],
+        ['Computers & business machines', 8],
+        ['Big / other',    9]
+      ];
+      var total2010 = 194.4;
+
+      var data2009 = [
+        ['Category', 'Percentage'],
+        ['Machinery & industrial equipment', 20],
+        ['IT & business machines', 8],
+        ['Commercial vehicles',  18],
+        ['Passenger cars', 43],
+        ['Ships, trains, aircraft', 5],
+        ['Other',    6]
+      ];
+      var total2009 = 184.8;
+
+      // Load the Visualization API and the piechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      var current = 4;
+
+      function drawChart() {
+
+        var data = [];
+            data[0] = google.visualization.arrayToDataTable(data2010);
+            data[1] = google.visualization.arrayToDataTable(data2011);
+            data[2] = google.visualization.arrayToDataTable(data2012);
+            data[3] = google.visualization.arrayToDataTable(data2013);
+            data[4] = google.visualization.arrayToDataTable(data2014);
+            data[5] = google.visualization.arrayToDataTable(data2009);
+        var total = [];
+            total[0] = total2010;
+            total[1] = total2011;
+            total[2] = total2012;
+            total[3] = total2013;
+            total[4] = total2014;
+            total[5] = total2009;
+        var year = [];
+            year[0] = '2010';
+            year[1] = '2011';
+            year[2] = '2012';
+            year[3] = '2013';
+            year[4] = '2014';
+            year[5] = '2009';
+
+        var options = {
+          title: 'New leased equipment volumes per asset type in '+year[current],
+          pieHole: 0.65,
+          pieSliceText: 'percentage',
+          slices: {0: {color: color0 }, 1: {color: color1}, 2: {color: color2}, 3: {color: color3}, 4: {color: color4}, 5: {color: color5}},
+          legend: {position: 'labeled', textStyle: {color: titleColor, fontName: titleFont, fontSize: 16}},
+          pieSliceText: 'none',
+          titleTextStyle: { color: titleColor, fontName: titleFont, fontSize: titleSize, bold: true},
+          animation:{
+            duration: 1500,
+          }
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data[current], options);
+        var totalAmount = "<p><span class='center-euro'>&euro;"+total[current]+"</span> <br/><span class='billion'>billion</span></p>";
+        $('#center').html(totalAmount);
+
+      }
+
+
+
+    </script>
+  </head>
+  <style>
+    #donutchart {
+        height: 450px;
+        width: 900px;
+    }
+
+    #center{
+      height: 450px;
+      padding-top: 190px;
+      position: absolute;
+      text-align: center;
+      top: 0;
+      vertical-align: middle;
+      width: 900px;
+      line-height: normal;
+    }
+
+    .center-euro {
+      font-size: 40;
+      color: #022e4d;
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      font-style: bold;
+      font-weight: 700;
+    }
+
+    .billion {
+      font-size: 22;
+      color: #968472;
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      font-style: bold;
+    }
+
+    #outer
+    {
+        top: 380px;
+        left: 150px;
+        position: absolute;
+        text-align: left;
+    }
+    .inner
+    {
+        display: inline-block;
+    }
+  </style>
+
+  <body>
+    <!--Div that will hold the pie chart-->
+    <div id="donutchart"></div>
+    <div id="center"></div>
+    <div id="outer">
+      <div class="inner"><button type="submit" id = "5" class="btn btn-default" onClick="current=5;drawChart();">2009</button></div>
+      <div class="inner"><button type="submit" id = "0" class="btn btn-default" onClick="current=0;drawChart();">2010</button></div>
+      <div class="inner"><button type="submit" id = "1" class="btn btn-default" onClick="current=1;drawChart();">2011</button></div>
+      <div class="inner"><button type="submit" id = "2" class="btn btn-default" onClick="current=2;drawChart();">2012</button></div>
+      <div class="inner"><button type="submit" id = "3" class="btn btn-default" onClick="current=3;drawChart();">2013</button></div>
+      <div class="inner"><button type="submit" id = "4" class="btn btn-default" onClick="current=4;drawChart();">2014</button></div>
+    </div>
+
+  </body>
+</html>

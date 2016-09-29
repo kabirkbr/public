@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<style>
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 960px;
+  height: 370px;
+  position: relative;
+}
+
+#donutchart {
+  margin-left: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#title {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 20px;
+  color: #022e4d;
+  font-weight: bold;
+  margin-left: 150px;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+}
+
+path.slice{
+    stroke-width:2px;
+}
+
+polyline{
+    opacity: .3;
+    stroke: black;
+    stroke-width: 2px;
+    fill: none;
+}
+
+.labelValue
+{
+    font-size: 170%;
+    font-weight: 700;
+}
+
+.labelName
+{
+    font-size: 130%;
+    fill: #968472;
+}
+
+
+.toolTip {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    background: none repeat scroll 0 0 white;
+    border: 0 none;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: -3px 3px 15px #888888;
+    color: black;
+    font: 12px sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+
+text {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+.center-euro {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 34px;
+  font-weight: 900;
+  fill: #022e4d;
+}
+
+.billion {
+  font-size: 26px;
+  fill: #968472;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-weight: 400;
+}
+
+#outer
+{
+    margin-left: 150px;
+    text-align: left;
+}
+.inner
+{
+    display: inline-block;
+}
+
+</style>
+<body>
+<div id="title">
+  New leased equipment volumes per asset type in 2014
+</div>
+<svg id="donutchart">
+</svg>
+<div id="outer">
+  <!--
+  this breaks transitions due to the different number of slices...
+  <div class="inner"><button type="submit" name="dataset" id = "2009" class="btn btn-default" >2009</button></div>
+  -->
+  <div class="inner"><button type="submit" name="dataset" id = "2010" class="btn btn-default" >2010</button></div>
+  <div class="inner"><button type="submit" name="dataset" id = "2011" class="btn btn-default" >2011</button></div>
+  <div class="inner"><button type="submit" name="dataset" id = "2012" class="btn btn-default" >2012</button></div>
+  <div class="inner"><button type="submit" name="dataset" id = "2013" class="btn btn-default" >2013</button></div>
+  <div class="inner"><button type="submit" name="dataset" id = "2014" class="btn btn-default" >2014</button></div>
+</div>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+
+function createPie(startOffset) {
+  svg.append("g")
+      .attr("class", "slices");
+  svg.append("g")
+      .attr("class", "labelName");
+  svg.append("g")
+      .attr("class", "labelValue");
+  svg.append("g")
+      .attr("class", "lines");
+
+  var pie = d3.layout.pie()
+      .startAngle(startOffset)
+      .endAngle(Math.PI * 2 + startOffset)
+      .sort(null)
+      .value(function(d) {
+          return d.value;
+      });
+
+  return pie;
+
+}
+
+var svg = d3.select("body")
+    .select("svg")
+    .append("g");
+
+var pie = createPie(-0.3);
+
+var width = 730,
+    height = 370,
+    radius = Math.min(width, height-20) / 2;
+
+var arc = d3.svg.arc()
+    .outerRadius(radius * 0.8)
+    .innerRadius(radius * 0.56);
+
+var outerArc = d3.svg.arc()
+    .innerRadius(radius * 0.9)
+    .outerRadius(radius * 0.9);
+
+var legendRectSize = (radius * 0.05);
+var legendSpacing = radius * 0.02;
+
+
+var div = d3.select("body").append("div").attr("class", "toolTip");
+
+svg.attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+colors = {
+   color0: '#80cc28',
+   color1: '#46ae33',
+   color2: '#022e4d',
+   color3: '#619cbc',
+   color4: '#b5dc17',
+   color5: '#b6d1e0'
+}
+
+dataset2014 = [
+       {label:'Machinery & industrial equipment', value: 17, color: 'color0'},
+       {label:'Commercial vehicles', value: 19, color: 'color1'},
+       {label:'Passenger cars', value: 49, color: 'color2'},
+       {label:'Computers & business machines', value: 6, color: 'color3'},
+       {label:'Big/other', value: 9, color: 'color4'}
+     ];
+total2014 = 260;
+
+dataset2013 = [
+  {label: 'Machinery & industrial equipment', value: 17, color: 'color0'},
+  {label:'Commercial vehicles', value: 19, color: 'color1'},
+  {label:'Passenger cars', value: 47, color: 'color2'},
+  {label:'Computers & business machines', value: 7, color: 'color3'},
+  {label:'Big/other', value: 10, color: 'color4'}
+];
+total2013 = 238;
+
+dataset2012 = [
+  {label: 'Machinery & industrial equipment', value: 17, color: 'color0'},
+  {label:'Commercial vehicles', value: 18, color: 'color1'},
+  {label:'Passenger cars', value: 46, color: 'color2'},
+  {label:'Computers & business machines', value: 7, color: 'color3'},
+  {label:'Big/other', value: 12, color: 'color4'}
+];
+total2012 = 236;
+
+dataset2011 = [
+  {label:'Machinery & industrial equipment', value: 17, color: 'color0'},
+  {label:'Commercial vehicles', value: 19, color: 'color1'},
+  {label:'Passenger cars', value: 44, color: 'color2'},
+  {label:'Computers & business machines', value: 7, color: 'color3'},
+  {label:'Big/other', value: 13, color: 'color4'}
+];
+total2011 = 232;
+
+dataset2010 = [
+  {label:'Machinery & industrial equipment', value: 19, color: 'color0'},
+  {label:'Commercial vehicles', value: 18, color: 'color1'},
+  {label:'Passenger cars', value: 46, color: 'color2'},
+  {label:'Computers & business machines', value: 8, color: 'color3'},
+  {label:'Big/other', value: 9, color: 'color4'}
+];
+total2010 = 194.4;
+
+dataset2009 = [
+  {label:'Machinery & industrial equipment', value:20, color: 'color0'},
+  {label:'IT & business machines', value: 8, color: 'color1'},
+  {label:'Commercial vehicles',  value:18, color: 'color2'},
+  {label:'Passenger cars', value:43, color: 'color3'},
+  {label:'Ships, trains, aircraft', value:5, color: 'color4'},
+  {label:'Other', value: 6, color: 'color5'}
+];
+total2009 = 184.8;
+
+change(dataset2014,total2014);
+
+
+d3.selectAll("button")
+    .on("click", selectDataset);
+
+function selectDataset()
+{
+    var value = this.id;
+    var name = this.name;
+    var dataset = name.concat(value);
+    var total = 'total'.concat(value);
+    if (value == "2009") {
+        removeChart();
+        pie = createPie(-0.5);
+    }
+    if ($('#title').html() == "New leased equipment volumes per asset type in 2009") {
+        removeChart();
+        pie = createPie(-0.3);
+    }
+    change(window[dataset],window[total]);
+    $('#title').html('New leased equipment volumes per asset type in '+value);
+}
+
+function removeChart() {
+    svg.selectAll("g").remove();
+    svg.append("g")
+        .attr("class", "slices");
+    svg.append("g")
+        .attr("class", "labelName");
+    svg.append("g")
+        .attr("class", "labelValue");
+    svg.append("g")
+        .attr("class", "lines");
+
+}
+
+function change(data,total) {
+
+    /* ------- PIE SLICES -------*/
+    var slice = svg.select(".slices").selectAll("path.slice")
+        .data(pie(data), function(d){ return d.data.label; });
+
+    //slice.attr("class","update");
+
+    slice.enter()
+        .insert("path")
+        .style("fill", function(d) { var col = d.data.color; return colors[col]; })
+        .attr("class", "slice");
+
+    slice
+        .transition().duration(1000)
+        .attrTween("d", function(d) {
+            this._current = this._current || d;
+            var interpolate = d3.interpolate(this._current, d);
+            this._current = interpolate(0);
+            return function(t) {
+                return arc(interpolate(t));
+            };
+        })
+    slice
+        .on("mousemove", function(d){
+            div.style("left", d3.event.pageX+10+"px");
+            div.style("top", d3.event.pageY-25+"px");
+            div.style("display", "inline-block");
+            div.html((d.data.label)+"<br>"+(d.data.value)+"%");
+        });
+    slice
+        .on("mouseout", function(d){
+            div.style("display", "none");
+        });
+
+    slice.exit()
+        .remove();
+
+    var label = svg.selectAll('.legend').remove();
+
+    var label = svg.selectAll('.legend')
+        .data([total]);
+
+    label.attr("class","update");
+
+    label
+        .enter()
+        .append("g")
+        .attr("text-anchor", "middle")
+        .attr("class","legend");
+
+    label
+        .append("text")
+        .attr("class","center-euro")
+        .attr("x",0)
+        .attr("y",0)
+        .html("&euro;" + total);
+
+    label
+        .append("text")
+        .attr("class","billion")
+        .attr("x",0)
+        .attr("y",30)
+        .html("billion");
+
+
+    label.exit()
+        .remove();
+
+    /* ------- TEXT LABELS -------*/
+
+    var text = svg.select(".labelName").selectAll("text")
+        .data(pie(data), function(d){ return d.data.label });
+
+    text.attr("class","update");
+
+    text.enter()
+        .append("text")
+        .attr("dy", "1em")
+        .text(function(d) { return d.data.label});
+
+    function wrap(text, width) {
+      text.each(function() {
+        var text = d3.select(this),
+            words = text.text().split(/\s+/).reverse(),
+            word,
+            line = [],
+            lineNumber = 0,
+            lineHeight = 0, // ems
+            y = text.attr("y"),
+            dy = parseFloat(text.attr("dy")),
+            tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
+        while (word = words.pop()) {
+          line.push(word);
+          tspan.text(line.join(" "));
+          if (tspan.node().getComputedTextLength() > width) {
+            line.pop();
+            tspan.text(line.join(" "));
+            line = [word];
+            tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+          }
+        }
+      });
+    }
+
+    function midAngle(d){
+        return d.startAngle + (d.endAngle - d.startAngle)/2;
+    }
+
+    text
+        .text(function(d) {
+            return (d.data.label);
+        })
+        .call(wrap, 200)
+        .transition().duration(1000)
+        .attrTween("transform", function(d) {
+            this._current = this._current || d;
+            var interpolate = d3.interpolate(this._current, d);
+            this._current = interpolate(0);
+            return function(t) {
+                var d2 = interpolate(t);
+                var pos = outerArc.centroid(d2);
+                pos[0] = radius * (midAngle(d2) < Math.PI ? 2.05 : -2.05);
+                return "translate("+ pos +")";
+            };
+        })
+        .styleTween("text-anchor", function(d){
+            this._current = this._current || d;
+            var interpolate = d3.interpolate(this._current, d);
+            this._current = interpolate(0);
+            return function(t) {
+                var d2 = interpolate(t);
+                return midAngle(d2) < Math.PI ? "end":"start";
+            };
+        });
+
+
+    text.exit()
+        .remove();
+
+    /* ------- VALUE LABELS -------*/
+
+    var text = svg.select(".labelValue").selectAll("text")
+        .data(pie(data), function(d){ return d.data.value });
+
+    text.attr("class","update");
+
+    text.enter()
+        .append("text")
+        .attr("dy", "-.3em")
+        .attr("fill", function(d) {  var col = d.data.color; return colors[col]; })
+        .text(function(d) { return d.data.value + "%"});
+
+    text
+        .text(function(d) {
+            return (d.data.value + "%");
+        })
+        .transition().duration(1000)
+        .attrTween("transform", function(d) {
+            this._current = this._current || d;
+            var interpolate = d3.interpolate(this._current, d);
+            this._current = interpolate(0);
+            return function(t) {
+                var d2 = interpolate(t);
+                var pos = outerArc.centroid(d2);
+                pos[0] = radius * (midAngle(d2) < Math.PI ? 2.05 : -2.05);
+                return "translate("+ pos +")";
+            };
+        })
+        .styleTween("text-anchor", function(d){
+            this._current = this._current || d;
+            var interpolate = d3.interpolate(this._current, d);
+            this._current = interpolate(0);
+            return function(t) {
+                var d2 = interpolate(t);
+                return midAngle(d2) < Math.PI ? "end":"start";
+            };
+        });
+
+    text.exit()
+        .remove();
+
+    /* ------- SLICE TO TEXT POLYLINES -------*/
+
+    var polyline = svg.select(".lines").selectAll("polyline")
+        .data(pie(data), function(d){ return d.data.label });
+
+    polyline.enter()
+        .append("polyline");
+
+    polyline.transition().duration(1000)
+        .attrTween("points", function(d){
+            this._current = this._current || d;
+            var interpolate = d3.interpolate(this._current, d);
+            this._current = interpolate(0);
+            return function(t) {
+                var d2 = interpolate(t);
+                var pos = outerArc.centroid(d2);
+                pos[0] = radius * 0.95 * (midAngle(d2) < Math.PI ? 2.2 : -2.2);
+                return [arc.centroid(d2), outerArc.centroid(d2), pos];
+            };
+        });
+
+    polyline.exit()
+        .remove();
+};
+
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+</body>
