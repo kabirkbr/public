@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by diasvg.py -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="14.51198cm"
+   height="5.8434362cm"
+   viewBox="4.65 11.382 16.728096 13.329742"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="connecting_processes.svg"
+   inkscape:export-filename="/home/vveitas/repos/DistributedITGovernance/pictures/connecting_processes.png"
+   inkscape:export-xdpi="173.8703"
+   inkscape:export-ydpi="173.8703">
+  <metadata
+     id="metadata126">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs124" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1633"
+     inkscape:window-height="935"
+     id="namedview122"
+     showgrid="false"
+     fit-margin-top="1"
+     fit-margin-left="0.5"
+     fit-margin-right="0.4"
+     fit-margin-bottom="1"
+     inkscape:zoom="0.578347"
+     inkscape:cx="521.28622"
+     inkscape:cy="177.21806"
+     inkscape:window-x="1973"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <rect
+     x="3.3646975"
+     y="16.834265"
+     width="4.4499998"
+     height="1.75"
+     id="rect4"
+     style="fill:#ffffff;stroke:none;stroke-width:0" />
+  <rect
+     x="3.3646975"
+     y="16.834265"
+     width="4.4499998"
+     height="1.75"
+     id="rect6"
+     style="fill:none;stroke:#000000;stroke-width:0.1" />
+  <line
+     x1="3.8096972"
+     y1="16.834265"
+     x2="3.8096972"
+     y2="18.584267"
+     id="line8"
+     style="stroke:#000000;stroke-width:0.1" />
+  <line
+     x1="7.3696985"
+     y1="16.834265"
+     x2="7.3696985"
+     y2="18.584267"
+     id="line10"
+     style="stroke:#000000;stroke-width:0.1" />
+  <text
+     x="5.5896978"
+     y="17.909266"
+     font-size="0.80"
+     font-style="normal"
+     font-weight="400"
+     id="text12"
+     style="font-style:normal;font-weight:400;font-size:0.80000001px;font-family:sans;text-anchor:middle;fill:#000000">P1</text>
+  <ellipse
+     cx="-0.6053018"
+     cy="17.649265"
+     rx="1.202"
+     ry="1.17"
+     id="ellipse14"
+     style="fill:#ffffff;stroke:none" />
+  <ellipse
+     cx="-0.6053018"
+     cy="17.649265"
+     rx="1.202"
+     ry="1.17"
+     id="ellipse16"
+     style="fill:none;stroke:#000000;stroke-width:0.1" />
+  <text
+     x="-0.6053018"
+     y="17.844265"
+     font-size="0.80"
+     font-style="normal"
+     font-weight="400"
+     id="text18"
+     style="font-style:normal;font-weight:400;font-size:0.80000001px;font-family:sans;text-anchor:middle;fill:#000000">S1'</text>
+  <ellipse
+     cx="11.137698"
+     cy="17.627266"
+     rx="1.143"
+     ry="1.113"
+     id="ellipse20"
+     style="fill:#ffffff;stroke:none" />
+  <ellipse
+     cx="11.137698"
+     cy="17.627266"
+     rx="1.143"
+     ry="1.113"
+     id="ellipse22"
+     style="fill:none;stroke:#000000;stroke-width:0.1" />
+  <text
+     x="11.137698"
+     y="17.822266"
+     font-size="0.80"
+     font-style="normal"
+     font-weight="400"
+     id="text24"
+     style="font-style:normal;font-weight:400;font-size:0.80000001px;font-family:sans;text-anchor:middle;fill:#000000">S2</text>
+  <line
+     x1="0.59569818"
+     y1="17.649265"
+     x2="2.8776979"
+     y2="17.698265"
+     id="line26"
+     style="stroke:#000000;stroke-width:0.1" />
+  <polygon
+     points="10.435,15.402 9.93,15.642 10.06,15.394 9.941,15.142 "
+     id="polygon28"
+     style="fill:#000000;stroke:none;stroke-width:0.1"
+     transform="translate(-7.1823023,2.3042648)" />
+  <polygon
+     points="10.435,15.402 9.93,15.642 10.06,15.394 9.941,15.142 "
+     id="polygon30"
+     style="fill:none;stroke:#000000;stroke-width:0.1"
+     transform="translate(-7.1823023,2.3042648)" />
+  <line
+     x1="7.8146973"
+     y1="17.709265"
+     x2="9.5086985"
+     y2="17.645266"
+     id="line32"
+     style="stroke:#000000;stroke-width:0.1" />
+  <polygon
+     points="17.066,15.327 16.575,15.595 16.691,15.341 16.557,15.096 "
+     id="polygon34"
+     style="fill:#000000;stroke:none;stroke-width:0.1"
+     transform="translate(-7.1823023,2.3042648)" />
+  <polygon
+     points="17.066,15.327 16.575,15.595 16.691,15.341 16.557,15.096 "
+     id="polygon36"
+     style="fill:none;stroke:#000000;stroke-width:0.1"
+     transform="translate(-7.1823023,2.3042648)" />
+  <text
+     x="-2.5323017"
+     y="21.254267"
+     font-size="0.80"
+     font-style="normal"
+     font-weight="400"
+     id="text38"
+     style="font-style:normal;font-weight:400;font-size:0.80000001px;font-family:sans;text-anchor:start;fill:#ff0000">DataItem</text>
+  <line
+     x1="-0.6053018"
+     y1="18.819265"
+     x2="-0.68230194"
+     y2="19.954266"
+     id="line40"
+     style="stroke:#000000;stroke-width:0.1;stroke-dasharray:0.1, 0.1" />
+  <text
+     x="9.5676985"
+     y="22.222265"
+     font-size="0.80"
+     font-style="normal"
+     font-weight="400"
+     id="text42"
+     style="font-style:normal;font-weight:400;font-size:0.80000001px;font-family:sans;text-anchor:start;fill:#ff0000">DataItem</text>
+  <line
+     x1="11.137698"
+     y1="18.739265"
+     x2="11.167699"
+     y2="21.254267"
+     id="line44"
+     style="stroke:#000000;stroke-width:0.1;stroke-dasharray:0.1, 0.1" />
+  <text
+     x="4.3176975"
+     y="21.222265"
+     font-size="0.80"
+     font-style="normal"
+     font-weight="400"
+     id="text46"
+     style="font-style:normal;font-weight:400;font-size:0.80000001px;font-family:sans;text-anchor:start;fill:#ff0000">Process</text>
+  <line
+     x1="5.5896978"
+     y1="18.584267"
+     x2="5.5176973"
+     y2="20.304266"
+     id="line48"
+     style="stroke:#000000;stroke-width:0.1;stroke-dasharray:0.1, 0.1" />
+  <text
+     x="0.91769868"
+     y="20.219267"
+     font-size="0.80"
+     font-style="normal"
+     font-weight="400"
+     id="text50"
+     style="font-style:normal;font-weight:400;font-size:0.80000001px;font-family:sans;text-anchor:start;fill:#ff0000">demands</text>
+  <line
+     x1="1.9806975"
+     y1="17.679266"
+     x2="1.967697"
+     y2="19.154266"
+     id="line52"
+     style="stroke:#000000;stroke-width:0.1;stroke-dasharray:0.1, 0.1" />
+  <text
+     x="8.2676983"
+     y="20.173265"
+     font-size="0.80"
+     font-style="normal"
+     font-weight="400"
+     id="text54"
+     style="font-style:normal;font-weight:400;font-size:0.80000001px;font-family:sans;text-anchor:start;fill:#ff0000">offers</text>
+  <line
+     x1="8.9046984"
+     y1="17.668266"
+     x2="8.9176989"
+     y2="19.354265"
+     id="line56"
+     style="stroke:#000000;stroke-width:0.1;stroke-dasharray:0.1, 0.1" />
+  <rect
+     x="18.679699"
+     y="16.749266"
+     width="4.4499998"
+     height="1.75"
+     id="rect58"
+     style="fill:#ffffff;stroke:none;stroke-width:0" />
+  <rect
+     x="18.679699"
+     y="16.749266"
+     width="4.4499998"
+     height="1.75"
+     id="rect60"
+     style="fill:none;stroke:#000000;stroke-width:0.1" />
+  <line
+     x1="19.124699"
+     y1="16.749266"
+     x2="19.124699"
+     y2="18.499266"
+     id="line62"
+     style="stroke:#000000;stroke-width:0.1" />
+  <line
+     x1="22.6847"
+     y1="16.749266"
+     x2="22.6847"
+     y2="18.499266"
+     id="line64"
+     style="stroke:#000000;stroke-width:0.1" />
+  <text
+     x="20.904699"
+     y="17.824266"
+     font-size="0.80"
+     font-style="normal"
+     font-weight="400"
+     id="text66"
+     style="font-style:normal;font-weight:400;font-size:0.80000001px;font-family:sans;text-anchor:middle;fill:#000000">P2</text>
+  <ellipse
+     cx="14.709699"
+     cy="17.564266"
+     rx="1.202"
+     ry="1.17"
+     id="ellipse68"
+     style="fill:#ffffff;stroke:none" />
+  <ellipse
+     cx="14.709699"
+     cy="17.564266"
+     rx="1.202"
+     ry="1.17"
+     id="ellipse70"
+     style="fill:none;stroke:#000000;stroke-width:0.1" />
+  <text
+     x="14.709699"
+     y="17.759266"
+     font-size="0.80"
+     font-style="normal"
+     font-weight="400"
+     id="text72"
+     style="font-style:normal;font-weight:400;font-size:0.80000001px;font-family:sans;text-anchor:middle;fill:#000000">S2'</text>
+  <ellipse
+     cx="26.452698"
+     cy="17.542265"
+     rx="1.143"
+     ry="1.113"
+     id="ellipse74"
+     style="fill:#ffffff;stroke:none" />
+  <ellipse
+     cx="26.452698"
+     cy="17.542265"
+     rx="1.143"
+     ry="1.113"
+     id="ellipse76"
+     style="fill:none;stroke:#000000;stroke-width:0.1" />
+  <text
+     x="26.452698"
+     y="17.737265"
+     font-size="0.80"
+     font-style="normal"
+     font-weight="400"
+     id="text78"
+     style="font-style:normal;font-weight:400;font-size:0.80000001px;font-family:sans;text-anchor:middle;fill:#000000">S3</text>
+  <line
+     x1="15.910699"
+     y1="17.564266"
+     x2="18.192699"
+     y2="17.613266"
+     id="line80"
+     style="stroke:#000000;stroke-width:0.1" />
+  <polygon
+     points="25.75,15.317 25.245,15.557 25.375,15.309 25.256,15.057 "
+     id="polygon82"
+     style="fill:#000000;stroke:none;stroke-width:0.1"
+     transform="translate(-7.1823023,2.3042648)" />
+  <polygon
+     points="25.75,15.317 25.245,15.557 25.375,15.309 25.256,15.057 "
+     id="polygon84"
+     style="fill:none;stroke:#000000;stroke-width:0.1"
+     transform="translate(-7.1823023,2.3042648)" />
+  <line
+     x1="23.1297"
+     y1="17.624266"
+     x2="24.8237"
+     y2="17.560265"
+     id="line86"
+     style="stroke:#000000;stroke-width:0.1" />
+  <polygon
+     points="32.381,15.242 31.89,15.51 32.006,15.256 31.872,15.011 "
+     id="polygon88"
+     style="fill:#000000;stroke:none;stroke-width:0.1"
+     transform="translate(-7.1823023,2.3042648)" />
+  <polygon
+     points="32.381,15.242 31.89,15.51 32.006,15.256 31.872,15.011 "
+     id="polygon90"
+     style="fill:none;stroke:#000000;stroke-width:0.1"
+     transform="translate(-7.1823023,2.3042648)" />
+  <text
+     x="13.532699"
+     y="22.419266"
+     font-size="0.80"
+     font-style="normal"
+     font-weight="400"
+     id="text92"
+     style="font-style:normal;font-weight:400;font-size:0.80000001px;font-family:sans;text-anchor:start;fill:#ff0000">DataItem</text>
+  <line
+     x1="14.709699"
+     y1="18.734266"
+     x2="14.767699"
+     y2="21.504267"
+     id="line94"
+     style="stroke:#000000;stroke-width:0.1;stroke-dasharray:0.1, 0.1" />
+  <text
+     x="24.932701"
+     y="21.537266"
+     font-size="0.80"
+     font-style="normal"
+     font-weight="400"
+     id="text96"
+     style="font-style:normal;font-weight:400;font-size:0.80000001px;font-family:sans;text-anchor:start;fill:#ff0000">DataItem</text>
+  <line
+     x1="26.452698"
+     y1="18.654266"
+     x2="26.682701"
+     y2="20.369267"
+     id="line98"
+     style="stroke:#000000;stroke-width:0.1;stroke-dasharray:0.1, 0.1" />
+  <text
+     x="19.6327"
+     y="21.137266"
+     font-size="0.80"
+     font-style="normal"
+     font-weight="400"
+     id="text100"
+     style="font-style:normal;font-weight:400;font-size:0.80000001px;font-family:sans;text-anchor:start;fill:#ff0000">Process</text>
+  <line
+     x1="20.904699"
+     y1="18.499266"
+     x2="20.832699"
+     y2="20.219267"
+     id="line102"
+     style="stroke:#000000;stroke-width:0.1;stroke-dasharray:0.1, 0.1" />
+  <text
+     x="16.2327"
+     y="20.134266"
+     font-size="0.80"
+     font-style="normal"
+     font-weight="400"
+     id="text104"
+     style="font-style:normal;font-weight:400;font-size:0.80000001px;font-family:sans;text-anchor:start;fill:#ff0000">demands</text>
+  <line
+     x1="17.2957"
+     y1="17.594265"
+     x2="17.2827"
+     y2="19.069265"
+     id="line106"
+     style="stroke:#000000;stroke-width:0.1;stroke-dasharray:0.1, 0.1" />
+  <text
+     x="23.582699"
+     y="20.088266"
+     font-size="0.80"
+     font-style="normal"
+     font-weight="400"
+     id="text108"
+     style="font-style:normal;font-weight:400;font-size:0.80000001px;font-family:sans;text-anchor:start;fill:#ff0000">offers</text>
+  <line
+     x1="24.2197"
+     y1="17.583265"
+     x2="24.2327"
+     y2="19.269266"
+     id="line110"
+     style="stroke:#000000;stroke-width:0.1;stroke-dasharray:0.1, 0.1" />
+  <line
+     x1="12.280698"
+     y1="17.627266"
+     x2="12.965699"
+     y2="17.592266"
+     id="line112"
+     style="stroke:#ff0000;stroke-width:0.15000001" />
+  <polygon
+     points="20.523,15.269 20.036,15.544 20.148,15.288 20.01,15.044 "
+     id="polygon114"
+     style="fill:#ff0000;stroke:none;stroke-width:0.15000001"
+     transform="translate(-7.1823023,2.3042648)" />
+  <polygon
+     points="20.523,15.269 20.036,15.544 20.148,15.288 20.01,15.044 "
+     id="polygon116"
+     style="fill:none;stroke:#ff0000;stroke-width:0.15000001"
+     transform="translate(-7.1823023,2.3042648)" />
+  <line
+     x1="12.917699"
+     y1="15.204266"
+     x2="12.894698"
+     y2="17.595266"
+     id="line118"
+     style="stroke:#000000;stroke-width:0.1;stroke-dasharray:0.1, 0.1" />
+  <text
+     x="8.1676989"
+     y="14.604266"
+     font-size="1.23"
+     font-style="normal"
+     font-weight="400"
+     id="text120"
+     style="font-style:normal;font-weight:400;font-size:1.23000002px;font-family:monospace;text-anchor:start;fill:#000000">similar(S2,S2',sim)</text>
+</svg>

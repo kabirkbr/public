@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by diasvg.py -->
+<svg width="43.313cm" height="22.074cm" viewBox="18.778 1.614 62.091 23.688"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="24.500" y="10.450" width="4.450" height="1.750" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="24.500" y="10.450" width="4.450" height="1.750" fill="none" stroke="#000000" stroke-width="0.100" />
+<line x1="24.945" y1="10.450" x2="24.945" y2="12.200" stroke="#000000" stroke-width="0.100" />
+<line x1="28.505" y1="10.450" x2="28.505" y2="12.200" stroke="#000000" stroke-width="0.100" />
+<text x="26.725" y="11.525"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+P1</text>
+<ellipse cx="20.030" cy="11.215" rx="1.202" ry="1.170" fill="#FFFFFF" stroke="none"  /><ellipse cx="20.030" cy="11.215" rx="1.202" ry="1.170" fill="none" stroke="#000000"  stroke-width="0.100" /><text x="20.030" y="11.410"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+S1&apos;</text>
+<line x1="21.231" y1="11.215" x2="24.013" y2="11.309" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="24.388,11.321 23.880,11.554 24.013,11.309 23.897,11.055 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="24.388,11.321 23.880,11.554 24.013,11.309 23.897,11.055 "/>
+<ellipse cx="31.473" cy="11.343" rx="1.143" ry="1.113" fill="#FFFFFF" stroke="none"  /><ellipse cx="31.473" cy="11.343" rx="1.143" ry="1.113" fill="none" stroke="#000000"  stroke-width="0.100" /><text x="31.473" y="11.538"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+S2</text>
+<line x1="28.950" y1="11.325" x2="29.844" y2="11.336" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="30.219,11.341 29.715,11.585 29.844,11.336 29.722,11.085 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="30.219,11.341 29.715,11.585 29.844,11.336 29.722,11.085 "/>
+<rect x="37.830" y="6.130" width="4.450" height="1.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="37.830" y="6.130" width="4.450" height="1.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<line x1="38.275" y1="6.130" x2="38.275" y2="8.030" stroke="#000000" stroke-width="0.100" />
+<line x1="41.835" y1="6.130" x2="41.835" y2="8.030" stroke="#000000" stroke-width="0.100" />
+<text x="40.055" y="7.280"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+P3</text>
+<rect x="37.930" y="13.455" width="4.450" height="1.750" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="37.930" y="13.455" width="4.450" height="1.750" fill="none" stroke="#000000" stroke-width="0.100" />
+<line x1="38.375" y1="13.455" x2="38.375" y2="15.205" stroke="#000000" stroke-width="0.100" />
+<line x1="41.935" y1="13.455" x2="41.935" y2="15.205" stroke="#000000" stroke-width="0.100" />
+<text x="40.155" y="14.530"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+P4</text>
+<line x1="35.988" y1="10.555" x2="37.602" y2="7.510" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="37.778,7.179 37.764,7.738 37.602,7.510 37.323,7.504 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="37.778,7.179 37.764,7.738 37.602,7.510 37.323,7.504 "/>
+<line x1="36.047" y1="12.222" x2="37.566" y2="13.569" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="37.846,13.818 37.306,13.674 37.566,13.569 37.638,13.299 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="37.846,13.818 37.306,13.674 37.566,13.569 37.638,13.299 "/>
+<ellipse cx="44.672" cy="6.805" rx="1.143" ry="1.113" fill="#FFFFFF" stroke="none"  /><ellipse cx="44.672" cy="6.805" rx="1.143" ry="1.113" fill="none" stroke="#000000"  stroke-width="0.100" /><text x="44.672" y="7.000"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+S5</text>
+<ellipse cx="45.008" cy="14.208" rx="1.143" ry="1.113" fill="#FFFFFF" stroke="none"  /><ellipse cx="45.008" cy="14.208" rx="1.143" ry="1.113" fill="none" stroke="#000000"  stroke-width="0.100" /><text x="45.008" y="14.403"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+S4</text>
+<line x1="42.280" y1="7.080" x2="43.054" y2="6.910" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="43.420,6.829 42.985,7.181 43.054,6.910 42.878,6.693 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="43.420,6.829 42.985,7.181 43.054,6.910 42.878,6.693 "/>
+<line x1="42.380" y1="14.330" x2="43.380" y2="14.248" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="43.754,14.217 43.276,14.507 43.380,14.248 43.235,14.009 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="43.754,14.217 43.276,14.507 43.380,14.248 43.235,14.009 "/>
+<rect x="51.432" y="1.819" width="4.450" height="1.750" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="51.432" y="1.819" width="4.450" height="1.750" fill="none" stroke="#000000" stroke-width="0.100" />
+<line x1="51.877" y1="1.819" x2="51.877" y2="3.569" stroke="#000000" stroke-width="0.100" />
+<line x1="55.437" y1="1.819" x2="55.437" y2="3.569" stroke="#000000" stroke-width="0.100" />
+<text x="53.657" y="2.894"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+P6</text>
+<line x1="48.965" y1="3.427" x2="50.966" y2="2.832" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="51.325,2.725 50.917,3.108 50.966,2.832 50.775,2.628 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="51.325,2.725 50.917,3.108 50.966,2.832 50.775,2.628 "/>
+<rect x="51.232" y="8.069" width="4.450" height="1.750" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="51.232" y="8.069" width="4.450" height="1.750" fill="none" stroke="#000000" stroke-width="0.100" />
+<line x1="51.677" y1="8.069" x2="51.677" y2="9.819" stroke="#000000" stroke-width="0.100" />
+<line x1="55.237" y1="8.069" x2="55.237" y2="9.819" stroke="#000000" stroke-width="0.100" />
+<text x="53.457" y="9.144"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+P7</text>
+<rect x="24.580" y="17.955" width="4.450" height="1.750" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="24.580" y="17.955" width="4.450" height="1.750" fill="none" stroke="#000000" stroke-width="0.100" />
+<line x1="25.025" y1="17.955" x2="25.025" y2="19.705" stroke="#000000" stroke-width="0.100" />
+<line x1="28.585" y1="17.955" x2="28.585" y2="19.705" stroke="#000000" stroke-width="0.100" />
+<text x="26.805" y="19.030"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+P2</text>
+<line x1="20.616" y1="12.253" x2="24.341" y2="18.844" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="24.525,19.170 24.061,18.858 24.341,18.844 24.497,18.612 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="24.525,19.170 24.061,18.858 24.341,18.844 24.497,18.612 "/>
+<ellipse cx="31.664" cy="18.958" rx="1.143" ry="1.113" fill="#FFFFFF" stroke="none"  /><ellipse cx="31.664" cy="18.958" rx="1.143" ry="1.113" fill="none" stroke="#000000"  stroke-width="0.100" /><text x="31.664" y="19.153"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+S3</text>
+<rect x="37.830" y="18.105" width="4.450" height="1.750" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="37.830" y="18.105" width="4.450" height="1.750" fill="none" stroke="#000000" stroke-width="0.100" />
+<line x1="38.275" y1="18.105" x2="38.275" y2="19.855" stroke="#000000" stroke-width="0.100" />
+<line x1="41.835" y1="18.105" x2="41.835" y2="19.855" stroke="#000000" stroke-width="0.100" />
+<text x="40.055" y="19.180"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+P5</text>
+<line x1="29.079" y1="18.908" x2="30.035" y2="18.941" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="30.409,18.954 29.901,19.186 30.035,18.941 29.918,18.687 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="30.409,18.954 29.901,19.186 30.035,18.941 29.918,18.687 "/>
+<line x1="36.183" y1="18.857" x2="37.345" y2="18.944" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="37.719,18.972 37.201,19.184 37.345,18.944 37.238,18.685 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="37.719,18.972 37.201,19.184 37.345,18.944 37.238,18.685 "/>
+<line x1="42.280" y1="18.980" x2="44.717" y2="15.711" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="44.942,15.410 44.843,15.961 44.717,15.711 44.442,15.662 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="44.942,15.410 44.843,15.961 44.717,15.711 44.442,15.662 "/>
+<line x1="49.634" y1="14.701" x2="50.873" y2="14.109" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="51.211,13.947 50.868,14.388 50.873,14.109 50.652,13.937 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="51.211,13.947 50.868,14.388 50.873,14.109 50.652,13.937 "/>
+<line x1="49.300" y1="9.034" x2="50.746" y2="8.966" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="51.121,8.949 50.633,9.222 50.746,8.966 50.609,8.722 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="51.121,8.949 50.633,9.222 50.746,8.966 50.609,8.722 "/>
+<rect x="51.312" y="13.024" width="4.450" height="1.750" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="51.312" y="13.024" width="4.450" height="1.750" fill="none" stroke="#000000" stroke-width="0.100" />
+<line x1="51.757" y1="13.024" x2="51.757" y2="14.774" stroke="#000000" stroke-width="0.100" />
+<line x1="55.317" y1="13.024" x2="55.317" y2="14.774" stroke="#000000" stroke-width="0.100" />
+<text x="53.537" y="14.099"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+P8</text>
+<ellipse cx="59.185" cy="2.777" rx="1.143" ry="1.113" fill="#FFFFFF" stroke="none"  /><ellipse cx="59.185" cy="2.777" rx="1.143" ry="1.113" fill="none" stroke="#000000"  stroke-width="0.100" /><text x="59.185" y="2.972"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+S6</text>
+<ellipse cx="60.761" cy="10.921" rx="1.143" ry="1.113" fill="#FFFFFF" stroke="none"  /><ellipse cx="60.761" cy="10.921" rx="1.143" ry="1.113" fill="none" stroke="#000000"  stroke-width="0.100" /><text x="60.761" y="11.116"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+S7</text>
+<line x1="55.882" y1="2.694" x2="57.556" y2="2.759" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="57.931,2.773 57.421,3.003 57.556,2.759 57.441,2.504 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="57.931,2.773 57.421,3.003 57.556,2.759 57.441,2.504 "/>
+<line x1="55.682" y1="8.944" x2="59.483" y2="10.004" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="59.845,10.104 59.296,10.211 59.483,10.004 59.430,9.729 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="59.845,10.104 59.296,10.211 59.483,10.004 59.430,9.729 "/>
+<line x1="55.762" y1="13.899" x2="59.521" y2="11.934" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="59.853,11.760 59.526,12.213 59.521,11.934 59.294,11.770 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="59.853,11.760 59.526,12.213 59.521,11.934 59.294,11.770 "/>
+<rect x="37.345" y="21.888" width="4.450" height="1.750" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="37.345" y="21.888" width="4.450" height="1.750" fill="none" stroke="#000000" stroke-width="0.100" />
+<line x1="37.790" y1="21.888" x2="37.790" y2="23.638" stroke="#000000" stroke-width="0.100" />
+<line x1="41.350" y1="21.888" x2="41.350" y2="23.638" stroke="#000000" stroke-width="0.100" />
+<text x="39.570" y="22.963"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+P0</text>
+<ellipse cx="35.100" cy="11.382" rx="1.257" ry="1.170" fill="#FFFFFF" stroke="none"  /><ellipse cx="35.100" cy="11.382" rx="1.257" ry="1.170" fill="none" stroke="#000000"  stroke-width="0.100" /><text x="35.100" y="11.577"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+S2&apos;</text>
+<ellipse cx="34.981" cy="18.857" rx="1.202" ry="1.170" fill="#FFFFFF" stroke="none"  /><ellipse cx="34.981" cy="18.857" rx="1.202" ry="1.170" fill="none" stroke="#000000"  stroke-width="0.100" /><text x="34.981" y="19.052"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+S3&apos;</text>
+<ellipse cx="47.763" cy="3.427" rx="1.202" ry="1.170" fill="#FFFFFF" stroke="none"  /><ellipse cx="47.763" cy="3.427" rx="1.202" ry="1.170" fill="none" stroke="#000000"  stroke-width="0.100" /><text x="47.763" y="3.622"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+S5&apos;</text>
+<ellipse cx="48.032" cy="9.034" rx="1.268" ry="1.235" fill="#FFFFFF" stroke="none"  /><ellipse cx="48.032" cy="9.034" rx="1.268" ry="1.235" fill="none" stroke="#000000"  stroke-width="0.100" /><text x="48.032" y="9.229"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+S5&apos;&apos;</text>
+<ellipse cx="20.013" cy="16.335" rx="1.143" ry="1.113" fill="#00FF00" stroke="none"  /><ellipse cx="20.013" cy="16.335" rx="1.143" ry="1.113" fill="none" stroke="#000000"  stroke-width="0.100" /><text x="20.013" y="16.530"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+S1</text>
+<ellipse cx="48.524" cy="15.149" rx="1.202" ry="1.170" fill="#FFFFFF" stroke="none"  /><ellipse cx="48.524" cy="15.149" rx="1.202" ry="1.170" fill="none" stroke="#000000"  stroke-width="0.100" /><text x="48.524" y="15.344"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+S4&apos;</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="37.345,22.763 20.050,22.700 20.017,17.934 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="20.014,17.559 20.268,18.058 20.017,17.934 19.768,18.061 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="20.014,17.559 20.268,18.058 20.017,17.934 19.768,18.061 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="60.839,16.418 60.850,22.900 42.281,22.766 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="41.906,22.764 42.408,22.517 42.281,22.766 42.405,23.017 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="41.906,22.764 42.408,22.517 42.281,22.766 42.405,23.017 "/>
+<ellipse cx="60.839" cy="15.248" rx="1.202" ry="1.170" fill="#FF0000" stroke="none"  /><ellipse cx="60.839" cy="15.248" rx="1.202" ry="1.170" fill="none" stroke="#000000"  stroke-width="0.100" /><text x="60.839" y="15.443"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+S7&apos;</text>
+</svg>
